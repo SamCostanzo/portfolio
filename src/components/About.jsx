@@ -3,7 +3,7 @@ export default function About() {
 
   const socials = [
     { label: "GitHub", url: "https://github.com/SamCostanzo" },
-    { label: "LinkedIn", url: "https://linkedin.com/in/yourhandle" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/samcostanzodev/" },
   ];
 
   return (
