@@ -1,12 +1,16 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
     <div className="bg-[#080d12] min-h-screen">
       <Navbar />
       <Hero />
+      <About />
+      <Contact />
       <Projects />
     </div>
   );

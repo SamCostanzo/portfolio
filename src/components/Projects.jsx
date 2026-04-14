@@ -25,7 +25,7 @@ export default function Projects() {
               key={f}
               onClick={() => setActive(f)}
               className={`font-mono text-[10px] tracking-widest uppercase px-5 py-2 rounded-sm border transition-all duration-300 ${
-                active === f ? "bg-[#c9a96e] text-[#080d12] border-[#c9a96e]" : "bg-transparent text-[#4a6080] border-[#1a2a3a] hover:text-[#c9a96e] hover:border-[#c9a96e44]"
+                active === f ? "bg-[#c9a96e] text-[#080d12] border-[#c9a96e]" : "bg-transparent text-[#4a6080] border-[#1a2a3a] hover:text-[#c9a96e] hover:border-[#c9a96e44] cursor-pointer"
               }`}
             >
               {f}
