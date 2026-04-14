@@ -35,9 +35,9 @@ export default function Hero() {
       />
 
       {/* Pulsing rings */}
-      <div className={`absolute top-1/2 left-1/2 w-[220px] h-[220px] rounded-full border animate-[ring-pulse_5s_ease-out_infinite_0s] ${isDark ? "border-[#c9a96e]" : "border-[#c9a96e88]"}`} />
-      <div className={`absolute top-1/2 left-1/2 w-[360px] h-[360px] rounded-full border animate-[ring-pulse_5s_ease-out_infinite_1.65s] ${isDark ? "border-[#c9a96e]" : "border-[#c9a96e88]"}`} />
-      <div className={`absolute top-1/2 left-1/2 w-[500px] h-[500px] rounded-full border animate-[ring-pulse_5s_ease-out_infinite_3.3s] ${isDark ? "border-[#c9a96e]" : "border-[#c9a96e88]"}`} />
+      <div className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[220px] h-[220px] rounded-full border border-[#c9a96e] animate-[ring-pulse_5s_ease-out_infinite_0s]" />
+      <div className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[360px] h-[360px] rounded-full border border-[#c9a96e] animate-[ring-pulse_5s_ease-out_infinite_1.65s]" />
+      <div className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full border border-[#c9a96e] animate-[ring-pulse_5s_ease-out_infinite_3.3s]" />
 
       {/* Particles */}
       <div ref={starsRef} className="absolute inset-0 overflow-hidden pointer-events-none" />

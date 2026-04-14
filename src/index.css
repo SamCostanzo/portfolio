@@ -80,14 +80,14 @@ html {
 @keyframes ring-pulse {
   0% {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0.6);
+    scale: 0.6;
   }
   50% {
     opacity: 0.22;
   }
   100% {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(1.55);
+    scale: 1.55;
   }
 }
 @keyframes cursor-blink {

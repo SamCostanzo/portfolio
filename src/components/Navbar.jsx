@@ -17,8 +17,8 @@ export default function Navbar() {
 
       <div className="flex gap-8">
         {[
-          { label: "Work", id: "work" },
           { label: "About", id: "about" },
+          { label: "Work", id: "work" },
           { label: "Contact", id: "contact" },
         ].map((link) => (
           <button
