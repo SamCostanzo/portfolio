@@ -71,10 +71,10 @@ export default function About() {
               built, and managed hundreds of production websites. Lately I've been going deep on Laravel, React, and Tailwind — the modern stack I want to build my career around. Outside of work I absolutely love music, video games, books, and sports — the kind of person who reads the Silmarillion for fun and has strong opinions about Elden Ring. I also play bass, which probably explains why I care
               so much about what's happening underneath the surface of things. My long-term dream is to ship a game on Steam. Right now the mission is simpler: find a great team, build great things. */}
               I'm a web developer based in Syracuse, NY, open to local, remote, and freelance work. My journey into tech was unconventional — I have a Master's degree in Music and spent years teaching
-              before making a deliberate switch into tech. I built my skills from the ground up and have been working professionally in the field since 2019. Over the last 7 years I've designed,
-              built, and managed hundreds of production websites. Lately I've been going deep on Laravel, React, and Tailwind — the modern stack I want to build my career around. Outside of work I
-              absolutely love reading fantasy and sci-fi, gaming, and playing bass. I love the band Rush, and I can talk your ear off about my favorite Stephen King books if given the chance. My
-              long-term dream is to ship a game on Steam. Right now the mission is simpler: find a great team, build great things.
+              before making a deliberate career change. I built my skills from the ground up and have been working professionally in the field since 2019. Over the last 7 years I've designed, built,
+              and managed hundreds of production websites. Lately I've been going deep on Laravel, React, and Tailwind — the modern stack I want to build my career around. Outside of work I absolutely
+              love reading fantasy and sci-fi, gaming, and playing bass. I love the band Rush, and I can talk your ear off about my favorite Stephen King books if given the chance. My long-term dream
+              is to ship a game on Steam. Right now the mission is simpler: find a great team, build great things.
             </p>
 
             {/* Skills */}
