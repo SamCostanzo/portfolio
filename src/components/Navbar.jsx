@@ -33,7 +33,7 @@ export default function Navbar() {
         ))}
       </div>
 
-      {/* Toggle button */}
+      {/* Toggle buttonn */}
       <button
         onClick={toggleTheme}
         className={`font-mono text-[10px] tracking-widest uppercase px-4 py-2 rounded-full border cursor-pointer transition-all duration-300 ${
