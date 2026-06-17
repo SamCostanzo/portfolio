@@ -11,9 +11,10 @@
   --color-muted: #8a8780;
   --color-accent: #5b7fa6;
   --color-border: #1a191618;
+  --color-light-text: #5a5750;
 
   /* Fonts */
-  --font-sans: "Inter", sans-serif;
-  --font-display: "Playfair Display", serif;
+  --font-inter: "Inter", sans-serif;
+  --font-playfair: "Playfair Display", serif;
   --font-mono: "JetBrains Mono", monospace;
 }
