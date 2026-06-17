@@ -1,3 +1,5 @@
+import TechnologyBadge from "./TechnologyBadge";
+
 export default function Hero() {
   return (
     <div className="hero bg-background border-b border-black/10">
@@ -15,11 +17,12 @@ export default function Hero() {
           <p className="hero-tag font-inter text-light-text font-light max-w-[400px] leading-7">
             I build clean, thoughtful software for the web. Seven years of professional experience shipping real products for real clients — now going deep on React, TypeScript, and Node.
           </p>
-          <div className="hero-actions">
-            <div className="hero-stack">
-              <span>React</span>
-              <span>TypeScript</span>
-              <span>Node.js</span>
+          <div className="hero-actions flex-col gap-4 items end">
+            <div className="hero-stack flex gap-2 justify-end">
+              <TechnologyBadge title="JavaScript"/>
+              <TechnologyBadge title="TypeScript"/>
+              <TechnologyBadge title="Laravel"/>
+              <TechnologyBadge title="WordPress"/>
             </div>
             <div className="btns">
               <button className="btn-p">View work</button>
