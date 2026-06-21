@@ -14,7 +14,7 @@ export default function About() {
 
           <p className="font-inter text-light-text font-light mb-8">
             I've spent seven years as the sole developer at a web agency, designing and building hundreds of production websites. I'm self-taught, detail-obsessed, and currently going deep on React,
-            TypeScript, and Node to take my skills to the next level. I have a Master's degree in Music and spent years teaching before switching into tech — which probably explains why I care so much
+            TypeScript, and Node to take my skills to the next level. I have a Master's degree in Music and spent years teaching before switching into tech - which probably explains why I care so much
             about clear communication and craft.
           </p>
 

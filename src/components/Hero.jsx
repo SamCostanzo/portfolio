@@ -1,4 +1,5 @@
 import TechnologyBadge from "./TechnologyBadge";
+import Button from "./Button";
 
 export default function Hero() {
   return (
@@ -26,7 +27,8 @@ export default function Hero() {
               <TechnologyBadge title="WordPress" />
             </div>
             <div className="flex gap-2">
-              <button className="bg-text text-white py-2 px-4 font-mono uppercase text-xs cursor-pointer">Resume</button>
+              <Button label="Resume" href="https://google.com"/>
+              <Button label="Learn More" href="https://youtube.com"/>
             </div>
           </div>
           {/* <div className="hero-actions flex flex-col gap-4 items end">
