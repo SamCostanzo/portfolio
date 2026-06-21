@@ -11,23 +11,33 @@ export default function Hero() {
         </div>
         <div className="hero-bottom flex justify-between gap-4">
           <div>
-            <h1 className="hero-name mb-4 font-playfair text-7xl font-bold text-text">Sam<br />Costanzo</h1>
-            <p className="hero-tag font-inter text-light-text font-light max-w-[400px] leading-7">
+            <h1 className="hero-name font-playfair text-7xl font-bold text-text mb-4">
+              Sam
+              <br />
+              Costanzo
+            </h1>
+            <p className="mb-4 font-inter text-light-text font-light max-w-[400px] leading-7">
               I build clean, thoughtful software for the web. Seven years of professional experience shipping real products for real clients - now going deep on React, TypeScript, and Node.
             </p>
+            <div className="flex gap-2 mb-4">
+              <TechnologyBadge title="JavaScript" />
+              <TechnologyBadge title="TypeScript" />
+              <TechnologyBadge title="Laravel" />
+              <TechnologyBadge title="WordPress" />
+            </div>
+            <div className="flex gap-2">
+              <button className="bg-text text-white py-2 px-4 font-mono uppercase text-xs cursor-pointer">Resume</button>
+            </div>
           </div>
-          <div className="hero-actions flex flex-col gap-4 items end">
-            <img src="/images/JL.jpg" alt="Portrait of Sam Costanzo"  className="max-w-[400px]"/>
+          {/* <div className="hero-actions flex flex-col gap-4 items end">
+            <img src="/images/JL.jpg" alt="Portrait of Sam Costanzo" className="max-w-[400px]" />
             <div className="hero-stack flex gap-2 justify-end">
-              <TechnologyBadge title="JavaScript"/>
-              <TechnologyBadge title="TypeScript"/>
-              <TechnologyBadge title="Laravel"/>
-              <TechnologyBadge title="WordPress"/>
+              <TechnologyBadge title="JavaScript" />
+              <TechnologyBadge title="TypeScript" />
+              <TechnologyBadge title="Laravel" />
+              <TechnologyBadge title="WordPress" />
             </div>
-            <div className="btns">
-              {/* <button className="btn-g">Resume</button> */}
-            </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
