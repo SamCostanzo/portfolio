@@ -1,8 +1,8 @@
 export default function Navbar() {
   const links = [
-    { label: "Work", id: "work" },
-    { label: "About", id: "about" },
-    { label: "Contact", id: "contact" },
+    { key: 1, label: "Work", id: "work" },
+    { key: 2, label: "About", id: "about" },
+    { key: 3, label: "Contact", id: "contact" },
   ];
 
   return (
@@ -13,10 +13,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center gap-10">
         <div className="menu flex gap-8">
           {links.map((link) => (
-            <button
-              onClick={() => document.getElementById(link.id)?.scrollIntoView({ behavior: "smooth" })}
-              className="uppercase tracking-widest cursor-pointer hover:text-accent transition-colors duration-300 ease-in-out"
-            >
+            <button key={link.key} onClick={() => document.getElementById(link.id)?.scrollIntoView({ behavior: "smooth" })} className="uppercase tracking-widest cursor-pointer hover:text-accent transition-colors duration-300 ease-in-out">
               {link.label}
             </button>
           ))}
