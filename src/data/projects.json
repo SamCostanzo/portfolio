@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Slay the Spire",
+    "description": "A clone of the deckbuilder Slay the Spire.",
+    "live": "https://example.com",
+    "github": "https://github.com/...",
+    "tech": ["React", "TypeScript"]
+  },
+  {
+    "id": 2,
+    "title": "Todo List",
+    "description": "An app to keep track of the things you need to do.",
+    "live": "https://example.com",
+    "github": "https://github.com/...",
+    "tech": ["React", "TypeScript", "Node.JS"]
+  },
+  {
+    "id": 3,
+    "title": "Movie Night",
+    "description": "A app I made for my friends to browse and keep track of the movies we want to watch together.",
+    "live": "https://example.com",
+    "github": "https://github.com/...",
+    "tech": ["React", "TypeScript", "Node.JS", "API"]
+  },
+  {
+    "id": 4,
+    "title": "Video Game Database",
+    "description": "Browse video games and see data about them.",
+    "live": "https://example.com",
+    "github": "https://github.com/...",
+    "tech": ["React", "TypeScript", "Node.JS"]
+  },
+  {
+    "id": 5,
+    "title": "Project Five",
+    "description": "A short description.",
+    "live": "https://example.com",
+    "github": "https://github.com/...",
+    "tech": ["React", "TypeScript"]
+  }
+]

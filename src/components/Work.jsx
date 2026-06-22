@@ -1,5 +1,6 @@
 import TechnologyBadge from "./TechnologyBadge";
 import WorkItem from "./WorkItem";
+import projects from "../data/projects.json";
 
 export default function Work() {
   return (
@@ -11,9 +12,9 @@ export default function Work() {
         </div>
 
         <div className="work-list">
-          <WorkItem />
-          <WorkItem />
-          <WorkItem />
+          {projects.map((project) => (
+            <WorkItem id={project.id} title={project.title} description={project.description} live={project.live} github={project.github} tech={project.tech} />
+          ))}
         </div>
       </div>
     </div>
