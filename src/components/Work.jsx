@@ -1,10 +1,21 @@
-export default function Work(){
-    return(
-        <div className="work bg-background px-4 py-20">
-            <div className="flex max-w-container mx-auto justify-between border-b-1 border-border pb-4">
-                <h2 className="mb-4 font-playfair text-[min(12vw,2rem)] font-bold text-text leading-[1.2]">Work</h2>
-                <p>Selected Projects</p>
-            </div>
+import TechnologyBadge from "./TechnologyBadge";
+import WorkItem from "./WorkItem";
+
+export default function Work() {
+  return (
+    <div className="work bg-background px-4 py-20">
+      <div className="items-center max-w-container mx-auto">
+        <div className="flex justify-between border-b-1 border-border pb-2 mb-12">
+          <h2 className="font-playfair text-[min(12vw,2rem)] font-bold text-text leading-[1.2]">Work</h2>
+          <p className="font-mono text-muted">Selected Projects</p>
         </div>
-    )
+
+        <div className="work-list">
+          <WorkItem />
+          <WorkItem />
+          <WorkItem />
+        </div>
+      </div>
+    </div>
+  );
 }
