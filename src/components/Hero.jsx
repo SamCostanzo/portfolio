@@ -27,7 +27,7 @@ export default function Hero() {
               <TechnologyBadge title="WordPress" />
             </div>
             <div className="flex gap-2">
-              <Button label="Resume" href="https://google.com"/>
+              <Button label="Resume" href="https://google.com" target="_blank"/>
               <Button label="Learn More" href="https://youtube.com"/>
             </div>
           </div>
