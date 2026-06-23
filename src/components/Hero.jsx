@@ -1,5 +1,6 @@
 import TechnologyBadge from "./TechnologyBadge";
 import Button from "./Button";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
@@ -12,11 +13,11 @@ export default function Hero() {
         </div>
         <div className="hero-bottom flex justify-between gap-4">
           <div>
-            <h1 className="hero-name font-playfair text-7xl font-bold text-text mb-4">
+            <motion.h1 className="hero-name font-playfair text-7xl font-bold text-text mb-4" initial={{ opacity: 0, x: -70 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 1.5 }}>
               Sam
               <br />
               Costanzo
-            </h1>
+            </motion.h1>
             <p className="mb-4 font-inter text-light-text font-light max-w-[400px] leading-7">
               I build clean, thoughtful software for the web. Seven years of professional experience shipping real products for real clients - now going deep on React, TypeScript, and Node.
             </p>
@@ -27,8 +28,8 @@ export default function Hero() {
               <TechnologyBadge title="WordPress" />
             </div>
             <div className="flex gap-2">
-              <Button label="Resume" href="https://google.com" target="_blank"/>
-              <Button label="Learn More" href="https://youtube.com"/>
+              <Button label="Resume" href="https://google.com" target="_blank" />
+              <Button label="Learn More" href="https://youtube.com" />
             </div>
           </div>
           {/* <div className="hero-actions flex flex-col gap-4 items end">
