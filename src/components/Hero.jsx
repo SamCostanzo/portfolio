@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="hero bg-background border-b border-black/10">
       <div className="hero-inner max-w-container mx-auto px-4 py-20">
-        <div className="hero-top flex justify-between items-center gap-4 mb-8 font-mono text-sm text-muted uppercase leading-none">
+        <div className="hero-top flex flex-col md:flex-row justify-between items-start md:items-center gap-2 md:gap-4 mb-8 font-mono text-sm text-muted uppercase leading-none">
           <div className="hero-label">Full-stack developer</div>
           <div className="hero-line h-px flex-1 bg-border"></div>
           <div className="hero-label">Syracuse, NY</div>

@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="about bg-background border-b border-black/10">
-      <div className="about-inner flex gap-4 max-w-container mx-auto px-4 py-20">
+      <div className="about-inner flex flex-col md:flex-row gap-4 max-w-container mx-auto px-4 py-20">
         <div>
           <img src="/images/male-ph.jpg" alt="" className="max-w-[200px]" />
         </div>

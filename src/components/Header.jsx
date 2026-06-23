@@ -6,7 +6,7 @@ export default function Header() {
   ];
 
   return (
-    <nav className="flex justify-between items-center px-10 py-5 border-b border-black/10 bg-surface font-mono text-sm text-text">
+    <header className="flex justify-between items-center px-10 py-5 border-b border-black/10 bg-surface font-mono text-sm text-text">
       <h1>
         <a href="/">Sam Costanzo</a>
       </h1>
@@ -24,6 +24,6 @@ export default function Header() {
         </div>
         <div className="nav-badge border border-accent px-3 py-1">Open to work</div>
       </div>
-    </nav>
+    </header>
   );
 }
