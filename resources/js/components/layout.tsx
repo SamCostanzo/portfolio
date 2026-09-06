@@ -6,7 +6,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-      <main className="layout flex justify-center items-center h-screen">
+      <main className="layout testy-test flex justify-center items-center h-screen">
         {children}
       </main>
   );
