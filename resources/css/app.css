@@ -3,9 +3,24 @@
 @source '../views';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 
+:root {
+    --clr-one: #f8b400;
+    --clr-two: #faf5e4;
+    --clr-three: #2c786c;
+    --clr-four: #004445;
+}
+
 @theme {
     --font-sans:
         'Instrument Sans', ui-sans-serif, system-ui, sans-serif,
         'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
         'Noto Color Emoji';
+
+    --color-one: var(--clr-one);
+    --color-two: var(--clr-two);
+    --color-three: var(--clr-three);
+    --color-four: var(--clr-four);
+
+
 }
+
