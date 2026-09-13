@@ -8,16 +8,17 @@ export default function Welcome() {
             
             <Head title="Sam Costanzo" />
 
-            <div className='flex flex-col md:flex-row gap-4 p-4 max-w-6xl'>   
+            <div className='flex flex-col md:flex-row gap-4 max-w-6xl'>   
 
-                <aside className='rounded-2xl bg-amber-200 border border-indigo-500 p-8'>
-                    <img src="Lucy-Holland.jpg" alt="Sam" className='max-w-2xs' />
-                    <h3>Contact</h3>
+                <aside className='flex flex-col gap-4 items-center max-w-[300px] rounded-2xl bg-white border border-[#ddd] p-4'>
+                    <img src="Lucy-Holland.jpg" alt="Sam" className='rounded-2xl' />
+                    <span className='max-w-fit bg-black rounded py-2 px-4'><h3 className='text-center text-white text-xs uppercase font-bold'>Web Developer</h3></span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ut!</p>
                 </aside>
 
-                <div className='panel flex flex-col gap-4 py-4 md:max-w-[75%] rounded-2xl bg-amber-200 border border-indigo-500 p-8'>
-                    <h2 className='mb-2 font-bold text-3xl'>Hello!</h2>
+                <div className='panel flex flex-col gap-4 py-4 rounded-2xl bg-white border border-[#ddd] p-8'>
+
+                    <h2 className='font-bold text-3xl'>Hello!</h2>
                     <div className='bg-three h-1.5 w-[5em]'></div>
                     <p className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deleniti error excepturi nulla cum, tempore adipisci velit reiciendis ducimus a, aperiam placeat, magnam non ea? Eos dolore molest aliquam enim vel placeat quos. At ut consectetur possimus odit facere voluptatem quisquam praesentium a!</p>
 
