@@ -20,7 +20,8 @@
     --color-two: #faf5e4;
     --color-three: #2c786c;
     --color-four: #004445;
-
+    
+    --color-gold: oklch(87.9% 0.169 91.605);
 
 }
 
